@@ -1,0 +1,26 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "portalpredictor",
+    "version":  "${version}",
+    "name":  "Nether Portal Predictor",
+    "description":  "Client-only predictor for Nether portal placement based on local scans.",
+    "authors":  [
+                    "Tuma",
+                    "Tymamatyty"
+                ],
+    "contact":  {
+
+                },
+    "license":  "MIT",
+    "environment":  "client",
+    "entrypoints":  {
+                        "client":  [
+                                       "ru.tuma.portalpredictor.client.PortalPredictorClient"
+                                   ]
+                    },
+    "depends":  {
+                    "fabricloader":  "\u003e=0.10.0",
+                    "minecraft":  "1.16.5",
+                    "fabric":  "*"
+                }
+}
